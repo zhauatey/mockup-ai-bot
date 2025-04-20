@@ -9,3 +9,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Сервер запущен на http://localhost:${port}`);
 });
+const apiKey = process.env.API_KEY;
